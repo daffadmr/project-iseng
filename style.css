@@ -1,13 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 *{
+    font-family: "Montserrat",sans-serif;
     box-sizing: border-box;
-    margin: 0;
-    padding: 0;
+}
+
+.container{
+    width: 1170px;
 }
 
 li, a, button, h3{
-    font-family: "Montserrat", sans-serif;
     font-weight: 500;
     font-size: 16px;
     color: black;
@@ -26,6 +28,7 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
+    height: 20px;
 }
 
 header li{
@@ -33,7 +36,21 @@ header li{
     padding-right: 20px;
 }
 
+header a:hover{
+    color: white;
+}
+
 body{
-    background-image: url(project-iseng/background.jpg);
+    background-image: url(background.jpeg);
     background-size: cover;
+}
+
+.content{
+    margin-top: 380px;
+    width: 50%;
+    margin-left: 290px;
+}
+
+.content h1{
+    font-weight: normal;
 }
